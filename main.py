@@ -46,5 +46,5 @@ if st.button('Classify'):
     st.write(f'Sentiment:{sentiment}')
     st.write(f'Prediction Score:{prediction[0][0]}')
 else:
-    st.write('Error. Please enter a Valid Review')
+    st.error('Error. Please enter a Valid Review')
 
